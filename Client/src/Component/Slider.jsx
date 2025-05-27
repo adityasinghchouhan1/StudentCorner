@@ -22,7 +22,17 @@ const Slider = () => {
             <div
               className="h-[100vh] w-full bg-cover bg-no-repeat bg-center flex justify-center items-center"
               style={{ backgroundImage: `url(${item.img})` }}
-            ></div>
+            >
+              <div className="absolute bottom-5 sm:left-20 left-2 flex flex-col justify-start items-start gap-4 text-white bg-gradient-to-r from-cyan-500 ps-2 pb-1 border-l-4 border-Myorange">
+                <h1 className="sm:text-6xl text-2xl font-bold font-Playfair">
+                  Heading
+                </h1>
+                <p className="text-sm sm:text-base font-CormorantGaramond">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint
+                  libero ipsa ratione ea, aliquid voluptatem?
+                </p>
+              </div>
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>
