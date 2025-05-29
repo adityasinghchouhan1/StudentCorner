@@ -37,7 +37,7 @@ const Navbar = () => {
           {isOpen ? <FaTimes /> : <FaBars />}
         </div>
         <div
-          className={`flex justify-center items-center flex-col h-full md:hidden text-white fixed top-0 left-0 transition-all duration-300 border-r-4 border-yellow-500 z-50 overflow-hidden ${
+          className={`flex justify-center items-center flex-col h-full md:hidden text-white fixed top-0 left-0 transition-all duration-300 border-r-4 bg-blue-950  border-yellow-500 z-50 overflow-hidden ${
             isOpen ? 'w-56' : 'w-0'
           } `}
         >
