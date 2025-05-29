@@ -15,7 +15,7 @@ const Navbar = () => {
   }
   return (
     <>
-      <nav className=" fixed top-0 left-0 z-20 w-full text-white font-semibold font-CormorantGaramond flex justify-between items-center p-2">
+      <nav className=" fixed top-0 left-0 z-20 w-full text-white font-semibold font-CormorantGaramond flex justify-between px-4 bg-blue-950 items-center p-2 border-b-2 border-Myorange">
         <div>
           <img src={Logo} alt="LOgo" className=" w-14" />
         </div>
