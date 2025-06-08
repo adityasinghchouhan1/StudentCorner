@@ -11,6 +11,22 @@ export default {
         CormorantGaramond: ['Cormorant Garamond', 'serif'],
         Playfair: ['Playfair Display', 'serif'],
       },
+      backgroundImage: {
+        'radial-gradient': 'radial-gradient(circle, #000000, #6b21a8, #000000)',
+      },
+      backgroundSize: {
+        'size-300': '300% 300%',
+      },
+      keyframes: {
+        'radial-move': {
+          '0%': { backgroundPosition: '0% 0%' },
+          '50%': { backgroundPosition: '100% 100%' },
+          '100%': { backgroundPosition: '0% 0%' },
+        },
+      },
+      animation: {
+        'radial-move': 'radial-move 10s ease-in-out infinite',
+      },
     },
   },
   plugins: [],
