@@ -10,16 +10,8 @@ const IntroPage = () => {
         <div className="flex sm:flex-row flex-col sm:justify-around justify-center items-center">
           <div>
             <div className="flex items-center">
-              <div className="w-[150px] h-[150px] rounded-full border-yellow-500 border-2 relative  bg-radial-gradient bg-size-300 animate-radial-move text-center flex items-center justify-center">
-                <h5 className="bg-gradient-to-r from-cyan-500 text-white font-Yellowtail p-1 rounded-l-lg ">
-                  Your data
-                </h5>
-              </div>
-              <div className="mt-20 w-[90px] h-[90px] rounded-full border-yellow-500 border-2 relative  bg-radial-gradient bg-size-300 animate-radial-move text-center flex items-center justify-center">
-                <h5 className="bg-gradient-to-r from-cyan-500 text-white font-Yellowtail p-1 rounded-l-lg ">
-                  Your data
-                </h5>
-              </div>
+              <div className="w-[150px] h-[150px] rounded-full border-yellow-500 border-2 relative  bg-radial-gradient bg-size-300 animate-radial-move text-center flex items-center justify-center"></div>
+              <div className="mt-20 w-[90px] h-[90px] rounded-full border-yellow-500 border-2 relative  bg-radial-gradient bg-size-300 animate-radial-move text-center flex items-center justify-center"></div>
             </div>
             <div className="flex ">
               <div className="w-[200px] h-[200px] rounded-full border-yellow-500 border-2 relative  bg-radial-gradient bg-size-300 animate-radial-move flex items-center justify-start">
@@ -27,17 +19,9 @@ const IntroPage = () => {
                   Your data datafg gfaty
                 </h5>
               </div>
-              <div className="mt-32 w-[80px] h-[80px] rounded-full border-yellow-500 border-2 relative  bg-radial-gradient bg-size-300 animate-radial-move text-start flex items-center justify-start">
-                <h5 className="bg-gradient-to-r text-xs from-cyan-500 text-white font-Yellowtail p-1 rounded-l-md ">
-                  Your data
-                </h5>
-              </div>
+              <div className="mt-32 w-[80px] h-[80px] rounded-full border-yellow-500 border-2 relative  bg-radial-gradient bg-size-300 animate-radial-move text-start flex items-center justify-start"></div>
             </div>
-            <div className="w-[100px] h-[100px] rounded-full border-yellow-500 border-2 relative  bg-radial-gradient bg-size-300 animate-radial-move text-center flex items-center justify-center">
-              <h5 className="bg-gradient-to-r from-cyan-500 text-white font-Yellowtail p-1 rounded-l-lg ">
-                Your data
-              </h5>
-            </div>
+            <div className="w-[100px] h-[100px] rounded-full border-yellow-500 border-2 relative  bg-radial-gradient bg-size-300 animate-radial-move text-center flex items-center justify-center"></div>
           </div>
           <div className="flex flex-col items-center justify-center text-center sm:my-0 my-6 sm:w-2/4">
             <h2 className="text-5xl font-Playfair font-bold mb-2">
