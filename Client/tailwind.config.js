@@ -3,8 +3,12 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      textColor: {
+        maintext: '#7272ff ',
+      },
       colors: {
         Myorange: '#FFA500',
+        bgmain: '#7272ff ',
       },
       fontFamily: {
         Yellowtail: ['Yellowtail', 'cursive'],
